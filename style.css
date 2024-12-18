@@ -77,7 +77,6 @@ header {
     flex-shrink: 0;
 }
 
-
 .header-content-text h1 {
     font-weight: 900;
     font-size: 48px;
@@ -124,6 +123,7 @@ header {
     font-size: 14px;
 }
 
+/* Main Styling */
 main {
     flex: 1;
 }
@@ -134,14 +134,13 @@ main {
     width: 100%;
 }
 
+/* Information Section Styling */
 .info-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-bottom: 150px;
-    padding-top: 20px;
-    padding: 20px 20px 100px 20px;
+    padding: 50px 20px 100px 20px;
 }
 
 .info-section-title {
@@ -166,6 +165,7 @@ main {
     flex: 1;
     max-width: 200px;
     flex-shrink: 0;
+    flex-grow: 0;
 }
 
 .box a {
@@ -178,12 +178,33 @@ main {
     margin-top:  10px;
 }
 
+/* Quote Section Styling */
 .quotes-section {
-    height: 350px;
     background-color: #E5E7EB;
-    padding: 150px;
+    padding: 100px;
+    align-items: center;
+    justify-items: center;
 }
 
+.quotes-section-text {
+    width: 100%;
+    max-width: 750px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quotes-section-text h1 {
+    font-size: 30px;
+    font-weight: 10;
+    font-style: italic;
+}
+.quotes-section-text p {
+    font-weight: 900;
+    margin-top: 20px;
+    text-align: right;
+} 
+
+/* CTA Section Styling */
 .cta-section {
     height: 200px;
 }
@@ -196,7 +217,7 @@ footer {
 
 
 /* Extras to help with responsivity*/
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
     .header-nav-menu-links {
         display: none; /* Hide navigation links on small screens */
     }
@@ -222,4 +243,9 @@ footer {
     .header-nav-menu-logo a {
         font-size: 18px; /* Adjust logo size for small screens */
     }
+
+    .info-section-content {
+        gap: 20px; /* Space between boxes on smaller screens */
+    }
+
 }

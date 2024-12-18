@@ -9,13 +9,10 @@
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
-    overflow-x: hidden;
-}
-
-body {
     display: flex;
     flex-direction: column;
 }
+
 
 /* Header Styling */
 header {
@@ -73,7 +70,6 @@ header {
     display: flex;
     flex-direction: column;
     max-width: 400px;
-
     flex-shrink: 0;
 }
 
@@ -209,7 +205,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 50px;
+    padding: 75px;
 }
 
 .cta-section-content {
@@ -218,7 +214,7 @@ main {
     max-width: 1200px;
     display: flex;
     border-radius: 5px;
-    padding: 25px 50px;
+    padding: 20px 50px;
     justify-content: space-between;
     gap: 50px;
 }
@@ -235,7 +231,6 @@ main {
 .cta-section-content .text  p {
     font-size: 15px;
     margin-top: 5px;
-    flex: 1;
 }
 
 .cta-section-content button {
@@ -251,15 +246,14 @@ main {
     flex-shrink: 0;
 }
 
-
 footer {
-    width: 100%;
-    height: 75px;
     background-color: #1F2937;
+    padding: 25px;
+    text-align: center;
+    color: #F9FAF8;
 }
 
-
-/* Extras to help with responsivity*/
+/* Extras to help with responsivity */
 @media (max-width: 1000px) {
     .header-nav-menu-links {
         display: none; /* Hide navigation links on small screens */
@@ -285,6 +279,10 @@ footer {
 
     .header-nav-menu-logo a {
         font-size: 18px; /* Adjust logo size for small screens */
+    }
+
+    .quotes-section-text {
+        text-align: center;
     }
 
     .info-section-content {

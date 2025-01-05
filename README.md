@@ -22,6 +22,6 @@ Odin Landing Page is a basic webpage designed to demonstrate fundamental web dev
   - A footer section with copyright information.
 
 ## Live Demo
-[View Live Project Here](https://thecoder45674.github.io/odin-landing-page/)
+[View Live Project Here](https://thecoder45674.github.io/simple-landing-page/)
 
 This project is part of the Foundations course in The Odin Project and is an excellent exercise for beginners learning to structure a complete webpage with responsive design and effective use of HTML and CSS.
